@@ -14,8 +14,8 @@ ttempl=numpy.squeeze(numpy.asarray(tlable))
 smalldata=temp[0:20000,:]
 smalllable=numpy.squeeze(numpy.asarray(lable[0:20000,:]))
 print 'preprocessing finished'
-print smalldata.shape
-print smalllable.shape
+#print smalldata.shape
+#print smalllable.shape
 #print
 #print templ
 #print templ.shape
